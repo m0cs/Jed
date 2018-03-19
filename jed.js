@@ -271,7 +271,7 @@ in order to offer easy upgrades -- jsgettext.berlios.de
       var val_idx;
       if (val === undefined) {
         // No value passed in; assume singular key lookup.
-        val_idx = 0;
+        val_idx = 1;
 
       } else {
         // Value has been passed in; use plural-forms calculations.
